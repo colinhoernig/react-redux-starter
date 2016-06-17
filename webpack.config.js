@@ -5,6 +5,17 @@ module.exports = {
     'webpack/hot/only-dev-server',
     './src/index.js'
   ],
+  module: {
+    loaders: [{
+      test: /\.jsx?$/,
+      exclude: /node_modules/,
+      loader: 'react-hot!babel'
+    }]
+  },
+  // resolve extensionless filepaths
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   // generate /dist/bundle.js
   output: {
     path: __dirname + '/dist',
