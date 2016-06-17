@@ -41,6 +41,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1"
   }
