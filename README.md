@@ -3,6 +3,11 @@ Simple starter for React/Redux with Webpack hot reloading + ES6 + Testing
 
 This is a super minimal React/Redux + Testing boilerplate to get projects started quickly.  Supports hot reloading w/ Webpack.
 
+- React
+- Redux
+- Webpack w/ react-hot-loader
+- Chai/Mocha/Enzyme for testing
+
 ### How to use
 
 1. Clone the repo:
@@ -26,4 +31,4 @@ This is a super minimal React/Redux + Testing boilerplate to get projects starte
     # git init
     ```
 
-4. You're good to go.
+4. `npm start` to start dev server, `npm run test:watch` to run tests automatically.
